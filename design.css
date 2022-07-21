@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My Code */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 340px;
+    border-radius: 15px;
+}
+
+.fit-picture {
+    width: 100%;
+    padding: none;
+    border-radius: 15px 15px 0 0;
+}
+
+.summary {
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.p1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px 0 10px 0;
+}
+
+.p2 {
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+    font-size: 0.9rem;
+}
+
+.statement {
+    padding-bottom: 12px;
+}
+
+.price {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-left {
+    display: flex;
+    align-items: center;
+}
+
+.inner-price-left {
+    margin-left: 15px;
+}
+
+.p3 {
+    padding-bottom: 7px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.btn {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px hsl(225, 100%, 94%);
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button-1 {
+    padding: 20px 0 10px 0;
+}
+
+/* .button-2 {
+    padding: 10px 0 10px 0;
+} */
+
+.p4 {
+    padding: 15px 0 10px 0;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.p4:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
